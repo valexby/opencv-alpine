@@ -64,6 +64,7 @@ RUN apk --no-cache add bash \
   linux-headers \
   make \
   musl \
+  libgfortran@edgemain \
   openblas@edgecomm \
   openblas-dev@edgecomm \
   openjpeg-dev \
