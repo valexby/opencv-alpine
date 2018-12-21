@@ -34,8 +34,9 @@ RUN echo -e "\n\
   >> /etc/apk/repositories
 
 # Install required packages
-RUN apk update && apk upgrade && apk --no-cache add \
-  bash \
+RUN apk update
+RUN apk upgrade
+RUN apk --no-cache add bash \
   build-base \
   ca-certificates \
   clang-dev \
