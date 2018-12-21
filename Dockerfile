@@ -20,7 +20,7 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE
 
-FROM alpine:3.5
+FROM alpine:3.8
 
 MAINTAINER Juliano Petronetto <juliano.petronetto@gmail.com>
 
